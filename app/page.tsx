@@ -39,6 +39,7 @@ const newThisWeek = {
       imgSrc: '/latest-gear/fishing-rod.webp',
       imgAlt: 'Fishing Essentials',
       title: 'Gear every Angler needs',
+      slug: 'resifight-100-ledgering-combo-3-5m',
       description: 'Fishing Essentials',
       ctaText: 'Shop Fishing',
    },
@@ -46,6 +47,7 @@ const newThisWeek = {
       {
          id: 1,
          name: 'Lure Fishing Reel - WXM 100 2500',
+         slug: 'lure-fishing-reel-wxm-100-2500',
          image: '/latest-gear/reel.webp',
          price: '420.00',
          rating: 4.4,
@@ -55,6 +57,7 @@ const newThisWeek = {
       },
       {
          id: 2,
+         slug: "jtlb-squid-jigs-4pcs",
          name: 'JTLB Squid Jigs \u2013 4pcs',
          image: '/latest-gear/squid-jigs.webp',
          price: '589.00',
@@ -66,6 +69,7 @@ const newThisWeek = {
       },
       {
          id: 3,
+         slug: "fltb-5-v2-fishing-float-tube",
          name: 'Fishing Float Tube FLTB-5 V2',
          image: '/latest-gear/float-tube.webp',
          price: '38,000',
@@ -76,6 +80,7 @@ const newThisWeek = {
       },
       {
          id: 4,
+         slug: "resifight-100-ledgering-combo-3-5m",
          name: 'Ledgering Combo 3.5 m - Resifight 100',
          image: '/latest-gear/resifight-rod.webp',
          price: '760.00',
@@ -86,6 +91,7 @@ const newThisWeek = {
       },
       {
          id: 5,
+         slug: "jtlb-squid-jigs-4pcs",
          name: 'JTLB Squid Jigs \u2013 4pcs',
          image: '/latest-gear/squid-jigs.webp',
          price: '589.00',
@@ -97,6 +103,7 @@ const newThisWeek = {
       },
       {
          id: 6,
+         slug: "fltb-5-v2-fishing-float-tube",
          name: 'Fishing Float Tube FLTB-5 V2',
          image: '/latest-gear/float-tube.webp',
          price: '38,000',
@@ -112,6 +119,7 @@ const retailerOffers = [
    {
       id: 1,
       name: 'PLUSINNO Fishing Rod and Reel Combos - Carbon Fiber',
+      slug: 'plusinno-carbon-rod-reel-combo',
       image: '/retailer-offer/carbon-rod.webp',
       price: '420.00',
       rating: 4.4,
@@ -121,6 +129,7 @@ const retailerOffers = [
    },
    {
       id: 2,
+      slug: "kemimoto-boat-caddy-organizer-small",
       name: 'KEMIMOTO Boat Caddy Organizer, One Piece Small',
       image: '/retailer-offer/organizer.webp',
       price: '20.00',
@@ -131,6 +140,7 @@ const retailerOffers = [
    },
    {
       id: 3,
+      slug: "plusinno-boat-rod-holder-clamp-large",
       name: 'PLUSINNO Fishing Boat Rods Holder Large Clamp Opening',
       image: '/retailer-offer/rod-clamp.webp',
       price: '420.00',
@@ -141,6 +151,7 @@ const retailerOffers = [
    },
    {
       id: 4,
+      slug: "wxm-100-2500-spinning-reel",
       name: 'Lure Fishing Reel - WXM 100 2500',
       image: '/retailer-offer/reel.webp',
       price: '420.00',
@@ -151,6 +162,7 @@ const retailerOffers = [
    },
    {
       id: 5,
+      slug: "goplus-inflatable-kayak-2-person-507lb",
       name: 'Goplus Inflatable Kayak, 2-Person Kayak Set for Adults with 507 LB...',
       image: '/retailer-offer/kayak.webp',
       price: '420.00',
@@ -161,6 +173,7 @@ const retailerOffers = [
    },
    {
       id: 6,
+      slug: "kemimoto-boat-caddy-organizer-small",
       name: 'KEMIMOTO Boat Caddy Organizer, One Piece Small',
       image: '/retailer-offer/organizer.webp',
       price: '20.00',
@@ -168,7 +181,7 @@ const retailerOffers = [
       reviewCount: 92,
       badge: 'New',
       delivery: 'Delivery \u2022 Ships in 1-2 days',
-   },
+   }
 ]
 
 

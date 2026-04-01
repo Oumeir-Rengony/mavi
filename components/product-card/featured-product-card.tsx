@@ -4,6 +4,7 @@ export interface FeaturedItem {
    imgSrc: string;
    imgAlt: string;
    title: string;
+   slug: string;
    description?: string;
    ctaText: string;
 }

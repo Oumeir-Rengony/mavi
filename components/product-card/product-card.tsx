@@ -6,6 +6,7 @@ import { cn } from '@/lib/utils'
 
 export interface ProductCardItem {
   name: string
+  slug: string
   image: string
   price: string
   originalPrice?: string
@@ -19,6 +20,7 @@ export interface ProductCardItem {
 
 export function ProductCard({
   name,
+  slug,
   image,
   price,
   originalPrice,
@@ -30,7 +32,7 @@ export function ProductCard({
   className
 }: ProductCardItem) {
   return (
-    <Link href="#" className={cn("group block w-full h-full", className)}>
+    <Link href={`/product/${slug}`} className={cn("group block w-full h-full", className)}>
       <div className="relative bg-muted rounded-xl">
         {onSale && (
           <Badge className="absolute top-2 left-2 bg-destructive hover:bg-destructive text-[#ffffff] z-10 text-xs">
