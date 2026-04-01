@@ -81,9 +81,6 @@ export function ReviewsSection() {
         {reviews.map((review, idx) => (
           <div
             key={review.id}
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: idx * 0.06 }}
             className="p-5 rounded-xl border border-border bg-card"
           >
             <div className="flex items-start justify-between gap-4 mb-3">
